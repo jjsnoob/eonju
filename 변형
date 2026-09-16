@@ -1,0 +1,38 @@
+{
+  "songTitle": "Delusion (2Key Limit Edit)",
+  "bpm": 180,
+  "notes": [
+    // [초반부] 트리키한 단노트 + 2동치 빌드업
+    { "time": 1000, "lane": 1, "type": "single" },
+    { "time": 1250, "lane": 4, "type": "single" },
+    { "time": 1500, "lane": 2, "type": "single" },
+    { "time": 1750, "lane": 3, "type": "single" },
+    { "time": 2000, "lane": 1, "type": "single" }, 
+    { "time": 2000, "lane": 4, "type": "single" }, // 2동치 제한 준수
+
+    // [중반부] 롱노트를 잡고 치는 1동치 박자 쪼개기
+    { "time": 3000, "lane": 1, "type": "long", "duration": 1500 }, // 1번 레인 롱노트 고정
+    { "time": 3250, "lane": 3, "type": "single" },
+    { "time": 3500, "lane": 4, "type": "single" },
+    { "time": 3750, "lane": 3, "type": "single" },
+    { "time": 4000, "lane": 2, "type": "single" },
+    { "time": 4250, "lane": 4, "type": "single" },
+
+    // [후반부] 딜루전 특유의 피아노 고속 폭타 (16비트 단선 무한 계단)
+    // 초고속으로 몰아치기 때문에 2개 이상 누르지 않아도 SC 14~15급의 난이도가 나옵니다.
+    { "time": 5000, "lane": 1, "type": "single" },
+    { "time": 5083, "lane": 2, "type": "single" },
+    { "time": 5166, "lane": 3, "type": "single" },
+    { "time": 5250, "lane": 4, "type": "single" },
+    { "time": 5333, "lane": 3, "type": "single" },
+    { "time": 5416, "lane": 2, "type": "single" },
+    { "time": 5500, "lane": 1, "type": "single" },
+    { "time": 5583, "lane": 2, "type": "single" },
+    { "time": 5666, "lane": 3, "type": "single" },
+    { "time": 5750, "lane": 4, "type": "single" },
+    { "time": 5833, "lane": 2, "type": "single" }, // 난타 변형
+    { "time": 5916, "lane": 3, "type": "single" },
+    { "time": 6000, "lane": 1, "type": "single" },
+    { "time": 6000, "lane": 4, "type": "single" }  // 마지막 2동치 마무리
+  ]
+}
